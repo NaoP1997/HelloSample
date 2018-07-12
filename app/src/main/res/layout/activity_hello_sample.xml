@@ -31,5 +31,3 @@
         android:textSize="25sp"/>
 
 </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
