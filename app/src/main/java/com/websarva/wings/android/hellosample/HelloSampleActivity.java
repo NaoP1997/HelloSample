@@ -15,7 +15,14 @@ public class HelloSampleActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View view){
-            
+
+            EditText input = findViewById(R.id.etName);
+
+            TextView output = findViewById(R.id.tvOutput);
+
+            String inputStr = input.getText().toString();
+
+            output.setText(inputStr + "さん、こんにちは！");
         }
     }
 }
