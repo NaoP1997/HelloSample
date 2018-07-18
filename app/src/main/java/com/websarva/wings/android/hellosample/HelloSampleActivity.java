@@ -10,4 +10,12 @@ public class HelloSampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_sample);
     }
+
+    private class HelloListener implements View.OnClickListener {
+
+        @Override
+        public void onClick(View view){
+            
+        }
+    }
 }
