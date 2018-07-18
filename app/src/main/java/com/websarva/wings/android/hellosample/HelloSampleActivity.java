@@ -38,7 +38,7 @@ public class HelloSampleActivity extends AppCompatActivity {
 
                     output.setText("");
 
-                    break;aaa
+                    break;
             }
         }
     }
