@@ -25,6 +25,8 @@ public class HelloSampleActivity extends AppCompatActivity {
             output.setText(inputStr + "さん、こんにちは！");
 
              Button btClear = findViewById(R.id.btClear);
+
+             btClear.setOnClickListener(listener);
         }
     }
 }
