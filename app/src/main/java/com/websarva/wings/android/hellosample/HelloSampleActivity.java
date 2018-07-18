@@ -20,13 +20,26 @@ public class HelloSampleActivity extends AppCompatActivity {
 
             TextView output = findViewById(R.id.tvOutput);
 
-            String inputStr = input.getText().toString();
+            int id = view.getId();
 
-            output.setText(inputStr + "さん、こんにちは！");
+            switch(id) {
 
-             Button btClear = findViewById(R.id.btClear);
+                case R.id.btClick:
 
-             btClear.setOnClickListener(listener);
+                    String inputStr = input.getText().toString();
+
+                    output.setText(inputStr + "さん、こんにちは！");
+
+                    break;
+
+                case R.id.btClear:
+
+                    input.setText("");
+
+                    output.setText("");
+
+                    break;
+            }
         }
     }
 }
